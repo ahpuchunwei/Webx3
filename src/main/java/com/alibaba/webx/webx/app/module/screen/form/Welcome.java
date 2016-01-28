@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.alibaba.webx.webx.app1.module.screen.form;
+package com.alibaba.webx.webx.app.module.screen.form;
 
 import com.alibaba.citrus.turbine.Context;
 import com.alibaba.citrus.turbine.dataresolver.Param;

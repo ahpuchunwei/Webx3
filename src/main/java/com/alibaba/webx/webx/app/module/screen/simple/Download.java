@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.alibaba.webx.webx.app1.module.screen.simple;
+package com.alibaba.webx.webx.app.module.screen.simple;
 
 import static com.alibaba.citrus.util.ObjectUtil.*;
 import static com.alibaba.citrus.util.StringEscapeUtil.*;

@@ -15,12 +15,7 @@
  * limitations under the License.
  */
 
-package com.alibaba.webx.webx.app1.module.screen.multievent;
-
-import java.io.IOException;
-import javax.servlet.http.HttpServletResponse;
-
-import org.springframework.beans.factory.annotation.Autowired;
+package com.alibaba.webx.webx.app.module.screen.multievent;
 
 /**
  * Screen方法可带有返回值。

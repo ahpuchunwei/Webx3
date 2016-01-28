@@ -15,9 +15,7 @@
  * limitations under the License.
  */
 
-package com.alibaba.webx.webx.app1.module.screen.simple;
-
-import static com.alibaba.citrus.util.StringEscapeUtil.*;
+package com.alibaba.webx.webx.app.module.screen.simple;
 
 import java.io.PrintWriter;
 import javax.servlet.http.HttpServletResponse;

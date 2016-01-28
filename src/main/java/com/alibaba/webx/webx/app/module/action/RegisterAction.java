@@ -15,16 +15,16 @@
  * limitations under the License.
  */
 
-package com.alibaba.webx.webx.app1;
+package com.alibaba.webx.webx.app.module.action;
 
-public class Visitor {
-    private String name;
+import com.alibaba.citrus.turbine.Navigator;
+import com.alibaba.citrus.turbine.dataresolver.FormGroup;
 
-    public String getName() {
-        return name;
-    }
+import com.alibaba.webx.webx.app.Visitor;
 
-    public void setName(String name) {
-        this.name = name;
+public class RegisterAction {
+    public void doRegister(@FormGroup("register") Visitor visitor, Navigator nav) {
+        String name = visitor.getName();
+        nav.redirectTo("app1Link").withTarget("form/welcome").withParameter("name", name);
     }
 }

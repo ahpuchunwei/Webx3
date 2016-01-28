@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.alibaba.webx.webx.app1.module.screen.simple;
+package com.alibaba.webx.webx.app.module.screen.simple;
 
 import java.io.PrintWriter;
 import javax.servlet.http.HttpServletResponse;

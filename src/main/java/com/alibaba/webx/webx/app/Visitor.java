@@ -15,20 +15,16 @@
  * limitations under the License.
  */
 
-package com.alibaba.webx.webx.app1.module.screen.list;
+package com.alibaba.webx.webx.app;
 
-import com.alibaba.citrus.turbine.Context;
+public class Visitor {
+    private String name;
 
-public class Default {
-    public void execute(Context context) {
-        context.put("list", new String[] {
-                "Adobe Photoshop",
-                "Adobe Acrobat",
-                "Adobe Lightroom",
-                "Apple Aperture",
-                "Microsoft Office",
-                "IntelliJ IDEA",
-                "<<\"Objective-C\"指南>>"
-        });
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }

@@ -10,6 +10,6 @@ $screen_placeholder
 
 <hr/>
 <p>[<a href="$app1Link.setTarget("index")">Home</a>] [<a href="$app1Link">Dev Home</a>]</p>
-Test
+
 </body>
 </html>

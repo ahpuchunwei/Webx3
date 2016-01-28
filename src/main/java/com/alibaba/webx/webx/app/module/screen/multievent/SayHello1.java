@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.alibaba.webx.webx.app1.module.screen.multievent;
+package com.alibaba.webx.webx.app.module.screen.multievent;
 
 import java.io.IOException;
 import javax.servlet.http.HttpServletResponse;
